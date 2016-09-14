@@ -1,6 +1,6 @@
 
 
-export default function commaize(value) {
+function commaize(value) {
   if( value === 0 || value === '0' ) {
       return '0';
   } else if( value ) {
@@ -17,3 +17,4 @@ export default function commaize(value) {
   }
 }
 
+module.exports = commaize;
